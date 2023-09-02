@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:opsz@6..12&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(to bottom right,#c7365f 0%, #753682 100%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 70%;
+    position: relative;
+}
+
+
+.content--1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 90vh;
+    background-color: #ffffff59;
+}
+
+.content--2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 90vh;
+    background-color: #ffffff59;
+}
+
+.player--active {
+    background-color: #ffffff66;
+}
+
+
+.player--winner {
+    background-color: rgb(0,0,0,0.7);
+}
+
+
+
+button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+img{
+    position: absolute;
+    height: 100px;
+    top: 150px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255);
+}
+
+.new-game{
+    position: absolute;
+    top: 30px;
+}
+
+.roll{
+    position: absolute;
+    bottom: 180px;
+}
+
+.hold{
+    position: absolute;
+    bottom: 100px;
+}
+
+.title{
+    font-size: 45px;
+    font-weight: 400;
+    color: rgb(0,0,0,0.7);
+}
+
+.score--1{
+    color: #c7365f;
+    font-size: 4rem;
+}
+
+.score--2{
+    color: #c7365f;
+    font-size: 4rem;
+}
+
+.current{
+    margin-top: 100px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7365f;
+    border-radius: 10px;
+    color: white;
+    padding: 30px 60px;
+    font-size: 1rem;
+}
+
+h4{
+    font-size: 2rem;
+}
